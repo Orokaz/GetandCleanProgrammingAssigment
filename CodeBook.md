@@ -20,87 +20,86 @@ The names of variables are composed by the following concepts
 
 Every variable has a range from -1 to 1
 
-The Additional variables
-meanTbodyaccX:     Mean of the time domain signal body acceleration from the accelerometer in the direction X
-meanTbodyaccY:     Mean of the time domain signal body acceleration from the accelerometer in the direction Y
-meanTbodyaccZ:     Mean of the time domain signal body acceleration from the accelerometer in the direction Z
-stdTbodyaccX:     Standard deviation of the time domain signal body acceleration from the accelerometer in the direction X
-stdTbodyaccY:     Standard deviation of the time domain signal body acceleration from the accelerometer in the direction Y
-stdTbodyaccZ:     Standard deviation of the time domain signal body acceleration from the accelerometer in the direction Z
-meanTgravityaccX:     Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction X
-meanTgravityaccY:     Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction Y
-meanTgravityaccZ:     Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction Z
-stdTgravityaccX:     The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction X
-stdTgravityaccY:     The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction Y
-stdTgravityaccZ:     The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction Z
-meanjerkTbodyaccX:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction X
-meanjerkTbodyaccY:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction Y
-meanjerkTbodyaccZ:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction Z
-stdjerkTbodyaccX:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the accelerometer in the direction X
-stdjerkTbodyaccY:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the accelerometer in the direction Y
-stdjerkTbodyaccZ:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the accelerometer in the direction Z
-meanTbodygyroX:     Mean of the time domain signal body acceleration from the gyroscope in the direction X
-meanTbodygyroY:     Mean of the time domain signal body acceleration from the gyroscope in the direction Y
-meanTbodygyroZ:     Mean of the time domain signal body acceleration from the gyroscope in the direction Z
-stdTbodygyroX:     Standard deviation of the time domain signal body acceleration from the gyroscope in the direction X
-stdTbodygyroY:     Standard deviation of the time domain signal body acceleration from the gyroscope in the direction Y
-stdTbodygyroZ:     Standard deviation of the time domain signal body acceleration from the gyroscope in the direction Z
-meanjerkTbodygyroX:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction X
-meanjerkTbodygyroY:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction Y
-meanjerkTbodygyroZ:     Mean Jerk signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction Z
-stdjerkTbodygyroX:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the gyroscope in the direction X
-stdjerkTbodygyroY:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the gyroscope in the direction Y
-stdjerkTbodygyroZ:     Standard deviation Jerk signal of the time domain signal from the body acceleration come from the gyroscope in the direction Z
-meanmagTbodyacc:     Mean of the euclidian norm of the time domain signal from the body acceleration from the accelerometer
-stdmagTbodyacc:     Standard deviation of the euclidian norm of the time domain signal from the body acceleration from the accelerometer
-meanmagTgravityacc:     Mean of the euclidian norm of the time domain signal from the gravity acceleration from the accelerometer
-stdmagTgravityacc:     Standard deviation of the euclidian norm of the time domain signal from the gravity acceleration from the accelerometer
-meanmagjerkTbodyacc:     Mean of the Jerk euclidian norm of the time domain signal from the body acceleration from the accelerometer
-stdmagjerkTbodyacc:     Standard deviation of the Jerk euclidian norm of the time domain signal from the body acceleration from the accelerometer
-meanTmagbodygyro:     Mean of the euclidian norm of the time domain signal from the body acceleration from the gyroscope
-stdTmagbodygyro:     Standard deviation of the euclidian norm of the time domain signal from the body acceleration from the gyroscope
-meanjerkTmagbodygyro:     Mean of the Jerk euclidian norm of the time domain signal from the body acceleration from the gyroscope
-stdjerkTmagbodygyro:     Standard deviation of the Jerk euclidian norm of the time domain signal from the body acceleration from the gyroscope
-meanFbodyaccX:     Mean of the frequency domain signal body acceleration from the accelerometer in the direction X
-meanFbodyaccY:     Mean of the frequency domain signal body acceleration from the accelerometer in the direction Y
-meanFbodyaccZ:     Mean of the frequency domain signal body acceleration from the accelerometer in the direction Z
-stdFbodyaccX:     standard deviation of the frequency domain signal body acceleration from the accelerometer in the direction X
-stdFbodyaccY:     standard deviation of the frequency domain signal body acceleration from the accelerometer in the direction Y
-stdFbodyaccZ:     standard deviation of the frequency domain signal body acceleration from the accelerometer in the direction Z
-meanfreqFbodyaccX:     Weighted average of frequency-domain signal body acceleration from the accelerometer in the direction X
-meanfreqFbodyaccY:     Weighted average of frequency-domain signal body acceleration from the accelerometer in the direction Y
-meanfreqFbodyaccZ:     Weighted average of frequency-domain signal body acceleration from the accelerometer in the direction Z
-meanjerkFbodyaccX:     Mean Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction X
-meanjerkFbodyaccY:     Mean Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Y
-meanjerkFbodyaccZ:     Mean Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Z
-stdjerkFbodyaccX:     Standard deviation Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction X
-stdjerkFbodyaccY:     Standard deviation Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Y
-stdjerkFbodyaccZ:     Standard deviation Jerk signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Z
-meanfreqjerkFbodyaccX:     Weighted average Jerk of frequency-domain signal body acceleration from the accelerometer in the direction X
-meanfreqjerkFbodyaccY:     Weighted average Jerk of frequency-domain signal body acceleration from the accelerometer in the direction Y
-meanfreqjerkFbodyaccZ:     Weighted average Jerk of frequency-domain signal body acceleration from the accelerometer in the direction Z
-meanFbodygyroX:     Mean of the frequency domain signal body acceleration from the gyroscope in the direction X
-meanFbodygyroY:     Mean of the frequency domain signal body acceleration from the gyroscope in the direction Y
-meanFbodygyroZ:     Mean of the frequency domain signal body acceleration from the gyroscope in the direction Z
-stdFbodygyroX:     Standard deviation of the frequency domain signal body acceleration from the gyroscope in the direction X
-stdFbodygyroY:     Standard deviation of the frequency domain signal body acceleration from the gyroscope in the direction Y
-stdFbodygyroZ:     Standard deviation of the frequency domain signal body acceleration from the gyroscope in the direction Z
-meanfreqFbodygyroX:     Weighted average of frequency-domain signal body acceleration from the gyroscope in the direction X
-meanfreqFbodygyroY:     Weighted average of frequency-domain signal body acceleration from the gyroscope in the direction Y
-meanfreqFbodygyroZ:     Weighted average of frequency-domain signal body acceleration from the gyroscope in the direction Z
-meanmagFbodyacc:     Mean of the euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
-stdmagFbodyacc:     Standard deviation of the euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
-meanfreqmagFbodyacc:     Weighted average of the euclidian norm of the frequency domain signal body acceleration from the accelerometer
-meanmagjerkFbody2acc:     Mean of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
-stdmagjerkFbody2acc:     Standard deviation of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
-meanfreqmagjerkFbody2acc:     Weighted average of the Jerk euclidian norm of the frequency domain signal body acceleration from the accelerometer
-meanmagFbody2gyro:     Mean of the euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
-stdmagFbody2gyro:     Standard deviation of the euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
-meanfreqmagFbody2gyro:     Weighted average of the euclidian norm of the frequency domain signal body acceleration from the gyroscope
-meanmagjerkFbody2gyro:     Mean of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
-stdmagjerkFbody2gyro:     Standard deviation of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
-meanfreqmagjerkFbody2gyro:     Weighted average of the Jerk euclidian norm of the frequency domain signal body acceleration from the gyroscope
-idsub:     Id of volunteer
-classet:     Selected for generating the training data or test data
-idactivity:     Identifier of activitie performed
-activity:     Activitie performed
+meanTbodyaccX: Mean of the time domain signal body aceleration from the accelerometer in the direccion X
+meanTbodyaccY: Mean of the time domain signal body aceleration from the accelerometer in the direccion Y
+meanTbodyaccZ: Mean of the time domain signal body aceleration from the accelerometer in the direccion Z
+stdTbodyaccX: Standar deviation of the time domain signal body aceleration from the accelerometer in the direccion X
+stdTbodyaccY: Standar deviation of the time domain signal body aceleration from the accelerometer in the direccion Y
+stdTbodyaccZ: Standar deviation of the time domain signal body aceleration from the accelerometer in the direccion Z
+meanTgravityaccX: Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction X
+meanTgravityaccY: Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction Y
+meanTgravityaccZ: Mean of the time domain signal from the gravity acceleration come from the accelerometer in the direction Z
+stdTgravityaccX: The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction X
+stdTgravityaccY: The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction Y
+stdTgravityaccZ: The standard deviation of the time domain signal from the gravity acceleration that comes from the accelerometer in the direction Z
+meanjerkTbodyaccX: Mean Jeark signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction X
+meanjerkTbodyaccY: Mean Jeark signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction Y
+meanjerkTbodyaccZ: Mean Jeark signal of the time domain signal from the body acceleration from the come from the accelerometer in the direction Z
+stdjerkTbodyaccX: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the accelerometer in the direction X
+stdjerkTbodyaccY: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the accelerometer in the direction Y
+stdjerkTbodyaccZ: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the accelerometer in the direction Z
+meanTbodygyroX: Mean of the time domain signal body aceleration from the gyroscope in the direccion X
+meanTbodygyroY: Mean of the time domain signal body aceleration from the gyroscope in the direccion Y
+meanTbodygyroZ: Mean of the time domain signal body aceleration from the gyroscope in the direccion Z
+stdTbodygyroX: Standar deviation of the time domain signal body aceleration from the gyrospcope in the direccion X
+stdTbodygyroY: Standar deviation of the time domain signal body aceleration from the gyrospcope in the direccion Y
+stdTbodygyroZ: Standar deviation of the time domain signal body aceleration from the gyrospcope in the direccion Z
+meanjerkTbodygyroX: Mean Jeark signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction X
+meanjerkTbodygyroY: Mean Jeark signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction Y
+meanjerkTbodygyroZ: Mean Jeark signal of the time domain signal from the body acceleration from the come from the gyroscope in the direction Z
+stdjerkTbodygyroX: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the gyroscope in the direction X
+stdjerkTbodygyroY: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the gyroscope in the direction Y
+stdjerkTbodygyroZ: Standar deviation Jeark signal of the time domain signal from the body acceleration come from the gyroscope in the direction Z
+meanmagTbodyacc: Mean of the euclidian norm of the time domain signal from the body acceleration from the acceleromenter
+stdmagTbodyacc: Standar deviation of the euclidian norm of the time domain signal from the body acceleration from the acceleromenter
+meanmagTgravityacc: Mean of the euclidian norm of the time domain signal from the gravity aceleration from the acceleromenter
+stdmagTgravityacc: Standar deviation of the euclidian norm of the time domain signal from the gravity aceleration from the acceleromenter
+meanmagjerkTbodyacc: Mean of the Jerk euclidian norm of the time domain signal from the body acceleration from the acceleromenter
+stdmagjerkTbodyacc: Standar deviation of the Jerk euclidian norm of the time domain signal from the body acceleration from the acceleromenter
+meanTmagbodygyro: Mean of the euclidian norm of the time domain signal from the body acceleration from the gyroscope
+stdTmagbodygyro: Standar deviation of the euclidian norm of the time domain signal from the body acceleration from the gyroscope
+meanjerkTmagbodygyro: Mean of the Jerk euclidian norm of the time domain signal from the body acceleration from the gyroscope
+stdjerkTmagbodygyro: Standar deviation of the Jerk euclidian norm of the time domain signal from the body acceleration from the gyroscope
+meanFbodyaccX: Mean of the frequency domain signal body aceleration from the accelerometer in the direccion X
+meanFbodyaccY: Mean of the frequency domain signal body aceleration from the accelerometer in the direccion Y
+meanFbodyaccZ: Mean of the frequency domain signal body aceleration from the accelerometer in the direccion Z
+stdFbodyaccX: standar deviation of the frequency domain signal body aceleration from the accelerometer in the direccion X
+stdFbodyaccY: standar deviation of the frequency domain signal body aceleration from the accelerometer in the direccion Y
+stdFbodyaccZ: standar deviation of the frequency domain signal body aceleration from the accelerometer in the direccion Z
+meanfreqFbodyaccX: Weighted averange of frequency fomain signal body aceleration from the accelerometer in the direccion X
+meanfreqFbodyaccY: Weighted averange of frequency fomain signal body aceleration from the accelerometer in the direccion Y
+meanfreqFbodyaccZ: Weighted averange of frequency fomain signal body aceleration from the accelerometer in the direccion Z
+meanjerkFbodyaccX: Mean Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction X
+meanjerkFbodyaccY: Mean Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Y
+meanjerkFbodyaccZ: Mean Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Z
+stdjerkFbodyaccX: Standar deviation Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction X
+stdjerkFbodyaccY: Standar deviation Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Y
+stdjerkFbodyaccZ: Standar deviation Jeark signal of the frequency domain signal from the body acceleration from the come from the accelerometer in the direction Z
+meanfreqjerkFbodyaccX: Weighted averange Jerk of frequency fomain signal body aceleration from the accelerometer in the direccion X
+meanfreqjerkFbodyaccY: Weighted averange Jerk of frequency fomain signal body aceleration from the accelerometer in the direccion Y
+meanfreqjerkFbodyaccZ: Weighted averange Jerk of frequency fomain signal body aceleration from the accelerometer in the direccion Z
+meanFbodygyroX: Mean of the frequency domain signal body aceleration from the gyroscope in the direccion X
+meanFbodygyroY: Mean of the frequency domain signal body aceleration from the gyroscope in the direccion Y
+meanFbodygyroZ: Mean of the frequency domain signal body aceleration from the gyroscope in the direccion Z
+stdFbodygyroX: Standar deviation of the frequency domain signal body aceleration from the gyrospcope in the direccion X
+stdFbodygyroY: Standar deviation of the frequency domain signal body aceleration from the gyrospcope in the direccion Y
+stdFbodygyroZ: Standar deviation of the frequency domain signal body aceleration from the gyrospcope in the direccion Z
+meanfreqFbodygyroX: Weighted averange of frequency fomain signal body aceleration from the gyroscope in the direccion X
+meanfreqFbodygyroY: Weighted averange of frequency fomain signal body aceleration from the gyroscope in the direccion Y
+meanfreqFbodygyroZ: Weighted averange of frequency fomain signal body aceleration from the gyroscope in the direccion Z
+meanmagFbodyacc: Mean of the euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
+stdmagFbodyacc: Standar deviation of the euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
+meanfreqmagFbodyacc: Weighted averange of the euclidian norm of the frequency fomain signal body aceleration from the accelerometer
+meanmagjerkFbody2acc: Mean of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
+stdmagjerkFbody2acc: Standar deviation of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the accelerometer
+meanfreqmagjerkFbody2acc: Weighted averange of the Jerk euclidian norm of the frequency fomain signal body aceleration from the accelerometer
+meanmagFbody2gyro: Mean of the euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
+stdmagFbody2gyro: Standar deviation of the euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
+meanfreqmagFbody2gyro: Weighted averange of the euclidian norm of the frequency fomain signal body aceleration from the gyroscope
+meanmagjerkFbody2gyro: Mean of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
+stdmagjerkFbody2gyro: Standar deviation of the Jerk euclidian norm of the frequency domain signal from the body acceleration from the gyroscope
+meanfreqmagjerkFbody2gyro: Weighted averange of the Jerk euclidian norm of the frequency fomain signal body aceleration from the gyroscope
+idsub: Id of volunteer
+classet: Selected for generating the training data or test data
+idactivity: Identifier of activitie performed
+activity: Activitie performed
