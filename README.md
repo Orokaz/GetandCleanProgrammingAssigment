@@ -1,4 +1,5 @@
 ###Question 1: Merges the training and the test sets to create one data set.
+
 The whole Human Activity Recognition Using Smartphones Data Set was merged following the next steps
 
 1. Reading the test data and pasting the names of variables from the features set. There
@@ -26,9 +27,11 @@ The current data set "har2" which stores the test and training data already has 
 In this question, it is made a factor variable with the names.
 
 ###Question 4. Appropriately labels the data set with descriptive variable names.
+
 You have to use the function source to rename the variables with the rename_variables.R script. It was done with rename function from the dplyr package.
 
 The names of the variables were already very descriptive and understandable, so the abbreviation related to the names was kept but the order was modified to fix it according to the concept measured. For instance, the name tBodyAcc.mean...X measures the mean of the frequency domain signal body acceleration from the accelerometer in the direction X so the new name is meanTbodyaccX so that the user of the database can remember what it is about.
 
 ###Question 5.From the data set in step 4, creates a second, #independent tidy data set with the average of each variable for each activity and each subject.
+
 It was used the functions group_by and summarise_each to obtain a data frame with the means of the variables for every subject and activity
